@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import "./estilo.css";
+import React, { Component } from "react"
+import "./estilo.css"
+
 class CardNota extends Component {
   render() {
     return (
@@ -9,8 +10,8 @@ class CardNota extends Component {
         </header>
         <p className="card-nota_texto">Escreva sua nota</p>
       </section>
-    );
+    )
   }
 }
 
-export default CardNota;
+export default CardNota
